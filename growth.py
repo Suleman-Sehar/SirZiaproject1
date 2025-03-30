@@ -39,7 +39,6 @@ if uploaded_file:
 
 #File Details
 st.write("Preview the head of the Dataframe")
-df = pd.read_csv('your_data_file.csv')
 st.dataframe(df.head())
 
 #Data Cleaning Option
